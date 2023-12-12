@@ -1,0 +1,70 @@
+.weather_card{
+    width: 500px;
+    height: 700px;
+    background-color: #0b121e   ;
+    color: rgb(22, 21, 21);
+    border-radius: 20px;
+    border: none;
+    overflow: auto;
+
+    margin-left: 450px;
+    background-image: linear-gradient(red, yellow, blue)
+        /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkPC5UKBSrVXmXrZrJDoW1Jefc1pMuAxdnjlk-VNwhlwA90dS-SF3aYolDqNd03iMANio&usqp=CAU);
+    
+    opacity: inherit; */
+}
+.input_felid{
+    padding: 10px 10px;
+    background-color:#e0e5ec;
+    outline: none;
+    font: 17px;
+    border: none;
+    border-radius: 10px;
+    width: 480px;
+    height: 20px;
+    margin: 10px 10px;
+    color: rgb(9, 9, 9);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkPC5UKBSrVXmXrZrJDoW1Jefc1pMuAxdnjlk-VNwhlwA90dS-SF3aYolDqNd03iMANio&usqp=CAU);
+
+}
+.weather_update{
+    text-align: center;
+    line-height: 10px;
+}
+.weather_icons{
+    width: 180px;
+    position: relative;
+    bottom: 30px;
+}
+.weather_details{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    /* top: 150px; */
+}
+.weather_01{
+    background-color: #202b3c;
+    margin: 4px 10px;
+    width: 200px;
+    padding:5px 10px;
+    line-height: 15px;
+    border-radius: 10px;
+    /* background-image: linear-gradient(red, yellow, blue) */
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkPC5UKBSrVXmXrZrJDoW1Jefc1pMuAxdnjlk-VNwhlwA90dS-SF3aYolDqNd03iMANio&usqp=CAU );
+
+
+}
+.temp{
+    position: relative;
+    bottom: 30px;
+    /* top: 50px; */
+    color: rgb(17, 0, 255);
+}
+.status{
+    font-size: 20px;
+}
+.Thank{
+    position: relative;
+    /* top: 100px; */
+    font-size: larger;
+}
